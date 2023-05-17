@@ -1,0 +1,14 @@
+{
+  "name": "learning-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/bhumit070/learning-testing.git",
+  "author": "yudiz-bhoomit <bhoomit.ganatra@yudiz.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.7",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.4"
+  }
+}
