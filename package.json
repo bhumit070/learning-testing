@@ -5,10 +5,18 @@
   "repository": "https://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@github.com/bhumit070/learning-testing.git",
   "author": "yudiz-bhoomit <bhoomit.ganatra@yudiz.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --require ts-node/register src/**/*.spec.ts"
+  },
   "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/chai-json-schema": "^1.4.6",
+    "@types/mocha": "^10.0.1",
     "@types/node": "^20.1.7",
     "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
     "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
 }
